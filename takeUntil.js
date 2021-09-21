@@ -17,6 +17,7 @@ const takeUntil = function(array, callback) {
     if (callback(array[i])){
     return newArray;
     }
+
     newArray.push(array[i]);
   }
 }
