@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@anshaalhussain/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A library containing methods to use for iterating through objects, array, strings, then output desired values",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/AnshaalHussain/lotide.git"
   },
-  "author": "",
+  "author": "Anshaal Hussain",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AnshaalHussain/lotide/issues"
