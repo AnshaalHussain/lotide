@@ -20,10 +20,13 @@ const map = function(array, callback) {
 const words = ["ground", "control", "to", "major", "tom"];
 
 
-const results1 = map(words, word => word[0])
+/*const results1 = map(words, word => word[0])
 const results2 = map(words, word => word.length)
 const results3 = map(words, word => word[0] === "t")
 
 assertEqual(results1, ["g", "c", "t", "m", "t"])
 assertEqual(results2, [6, 7, 2, 5, 3])
-assertEqual(results3, [false, false, true, false, true])
+assertEqual(results3, [false, false, true, false, true])*/
+
+
+module.exports = map;

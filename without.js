@@ -33,6 +33,9 @@ const without = function(sourceArray, itemsToRemove) {
   return newArray;
 };
 
-const words = ["hello", "world", "lighthouse"];
-const x = ["lighthouse"]
-console.log(without(words, x))
+//const words = ["hello", "world", "lighthouse"];
+//const x = ["lighthouse"]
+//console.log(without(words, x))
+
+
+module.exports = without;

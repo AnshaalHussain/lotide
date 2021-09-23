@@ -29,7 +29,7 @@ const findKey = function(obj, callback) {
 
 
 
-const numStars = {
+/*const numStars = {
   "Blue Hill": { stars: 1 },
   "Akaleri":   { stars: 3 },
   "noma":      { stars: 2 },
@@ -39,3 +39,7 @@ const numStars = {
 }
 
 console.log(findKey(numStars, x => x.stars === 2));
+*/
+
+
+module.exports = findKey;

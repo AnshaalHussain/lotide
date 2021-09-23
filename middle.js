@@ -17,8 +17,9 @@ const middle = function(array1) {
   if(arrLen % 2 === 0) {
     newArray.push(array1[(arrLen / 2) - 1]);
     newArray.push(array1[(arrLen / 2)]);
+    return newArray;
   }
-  return newArray;
+  
 };
 
 
